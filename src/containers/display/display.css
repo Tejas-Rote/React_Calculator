@@ -1,0 +1,15 @@
+.custom-scroll::-webkit-scrollbar {
+  width: 0; /* Set width to 0 to hide the scrollbar */
+  height: 0; /* Set height to 0 to hide the scrollbar */
+}
+
+/* Create a space for the scrollbar */
+.custom-scroll {
+  overflow: auto; /* Enable scrolling */
+  scrollbar-width: none; /* Hide the scrollbar for Firefox */
+}
+
+/* Style the scrollable content */
+.custom-scroll::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Make the scrollbar thumb transparent */
+}
